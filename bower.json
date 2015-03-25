@@ -1,0 +1,28 @@
+{
+  "name": "workSite",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hogniR/workSite",
+  "authors": [
+    "hogniR <hogni@ingimarsson.com>"
+  ],
+  "description": "A site created to make the job application process simpler",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.11.1",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-uglify": "~0.8.0"
+  }
+}
